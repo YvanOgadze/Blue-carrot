@@ -1,0 +1,92 @@
+[
+    {
+        "naam": "appelen",
+        "prijs": 0.85,
+        "eenheid": "kg",
+        "image" : "appelen.png"
+    },
+    {
+        "naam": "ananas",
+        "prijs": 2.39,
+        "eenheid": "stuk",
+        "image" : "ananas.png"
+    },
+    {
+        "naam": "bananen",
+        "prijs": 0.99,
+        "eenheid": "kg",
+        "image" : "bananen.png"
+    },
+    {
+        "naam": "peren",
+        "prijs": 1.09,
+        "eenheid": "kg",
+        "image" : "peren.png"
+    },
+    {
+        "naam": "kiwi",
+        "prijs": 0.89,
+        "eenheid": "stuk",
+        "image" : "kiwi.png"
+    },
+    {
+        "naam": "mandarijnen",
+        "prijs": 1.49,
+        "eenheid": "kg",
+        "image" : "mandarijnen.png"
+    },
+    {
+        "naam": "mango",
+        "prijs": 1.25,
+        "eenheid": "stuk",
+        "image" : "mango.png"
+    },
+    {
+        "naam": "passievrucht",
+        "prijs": 4.99,
+        "eenheid": "kg",
+        "image" : "passievrucht.png"
+    },
+    {
+        "naam": "citroen",
+        "prijs": 0.62,
+        "eenheid": "kg",
+        "image" : "citroen.png"
+    },
+    {
+        "naam": "blauwe druiven",
+        "prijs": 1.99,
+        "eenheid": "tros",
+        "image" : "blauwedruif.png"
+    },
+    {
+        "naam": "kersen",
+        "prijs": 2.55,
+        "eenheid": "kg",
+        "image" : "kers.png"
+    },
+    {
+        "naam": "aardbeien",
+        "prijs": 2.75,
+        "eenheid": "bakje",
+        "image" : "aardbei.png"
+    },
+    {
+        "naam": "granaatappel",
+        "prijs": 3.05,
+        "eenheid": "stuk",
+        "image" : "granaatappel.png"
+    },
+    {
+        "naam": "sinaasappel",
+        "prijs": 2.05,
+        "eenheid": "kg",
+        "image" : "sinaasappel.png"
+    },
+    {
+        "naam": "vijgen",
+        "prijs": 0.75,
+        "eenheid": "stuk",
+        "image" : "vijg.png"
+    }
+]

@@ -1,0 +1,152 @@
+[
+    {
+        "naam": "aardappelen",
+        "prijs": 0.95,
+        "eenheid": "kg",
+        "image" : "aardappelen.png"
+    },
+    {
+        "naam": "avocado",
+        "prijs": 2.69,
+        "eenheid": "stuk",
+        "image" : "avocado.png"
+    },
+    {
+        "naam": "bloemkool",
+        "prijs": 1.93,
+        "eenheid": "stuk",
+        "image" : "bloemkool.png"
+    },
+    {
+        "naam": "broccoli",
+        "prijs": 1.29,
+        "eenheid": "stuk",
+        "image" : "broccoli.png"
+    },
+    {
+        "naam": "champignons",
+        "prijs": 0.89,
+        "eenheid": "250g",
+        "image" : "champignons.png"
+    },
+    {
+        "naam": "chinese kool",
+        "prijs": 1.59,
+        "eenheid": "stuk",
+        "image" : "chinesekool.png"
+    },
+    {
+        "naam": "groene kool",
+        "prijs": 1.69,
+        "eenheid": "stuk",
+        "image" : "groenekool.png"
+    },
+    {
+        "naam": "knolselder",
+        "prijs": 1.29,
+        "eenheid": "stuk",
+        "image" : "knolselder.png"
+    },
+    {
+        "naam": "komkommer",
+        "prijs": 2.49,
+        "eenheid": "stuk",
+        "image" : "komkommer.png"
+    },
+    {
+        "naam": "kropsla",
+        "prijs": 1.69,
+        "eenheid": "stuk",
+        "image" : "kropsla.png"
+    },
+    {
+        "naam": "paprika",
+        "prijs": 0.89,
+        "eenheid": "net",
+        "image" : "paprika.png"
+    },
+    {
+        "naam": "prei",
+        "prijs": 2.99,
+        "eenheid": "bundel",
+        "image" : "prei.png"
+    },
+    {
+        "naam": "princessenbonen",
+        "prijs": 1,
+        "eenheid": "250g",
+        "image" : "boontjes.png"
+    },
+    {
+        "naam": "rapen",
+        "prijs": 0.99,
+        "eenheid": "bundel",
+        "image" : "rapen.png"
+    },
+    {
+        "naam": "pastinaak",
+        "prijs": 1.39,
+        "eenheid": "kilo",
+        "image" : "pastinaak.png"
+    },
+    {
+        "naam": "rode kool",
+        "prijs": 1.39,
+        "eenheid": "stuk",
+        "image" : "rodekool.png"
+    },
+    {
+        "naam": "sla iceberg",
+        "prijs": 1.49,
+        "eenheid": "stuk",
+        "image" : "ijsbergsla.png"
+    },
+    {
+        "naam": "spinazie vers",
+        "prijs": 1.89,
+        "eenheid": "300g",
+        "image" : "spinazie.png"
+    },
+    {
+        "naam": "sjalot",
+        "prijs": 0.99,
+        "eenheid": "500g",
+        "image" : "sjalot.png"
+    },
+    {
+        "naam": "spruiten",
+        "prijs": 1.86,
+        "eenheid": "kg",
+        "image" : "spruiten.png"
+    },
+    {
+        "naam": "trostomaat",
+        "prijs": 2.99,
+        "eenheid": "500g",
+        "image" : "trostomaat.png"
+    },
+    {
+        "naam": "ui",
+        "prijs": 0.89,
+        "eenheid": "kg",
+        "image" : "ui.png"
+    },
+    {
+        "naam": "witloof 1ste keus",
+        "prijs": 1.49,
+        "eenheid": "700g",
+        "image" : "witloof.png"
+    },
+    {
+        "naam": "wortelen",
+        "prijs": 2.59,
+        "eenheid": "kg",
+        "image" : "wortelen.png"
+    },
+    {
+        "naam": "courgetten",
+        "prijs": 1.5,
+        "eenheid": "stuk",
+        "image" : "courgette.png"
+    }
+]

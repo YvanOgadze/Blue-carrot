@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <script src="bluecarrot-contact.js" defer></script>
+  <title>Blue Carrot</title>
+  <link rel="icon" href="groentenwinkel.ico" type="image/x-icon">
+  <link rel="stylesheet" href="opmaak.css" />
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <a href="bluecarrot-index.html"><img src="bluecarrotlogo.PNG" class="banner" href="bluecarrot-index.html"></a>
+    <div class="inhoud">
+      <div class="menu">
+        <hr class="lijn">
+        <ul>
+          <li><a href="bluecarrot-index.html">OVER ONS</a></li>
+          <li><a href="bluecarrot-assortiment.html">ASSORTIMENT</a></li>
+          <li><a href="bluecarrot-mandje.html">WINKELMANDJE
+            <text id="aantal" hidden></text>
+          <li><a href="bluecarrot-contact.html" class="actief">CONTACTEER ONS</a></li>
+        </ul>
+        <hr class="lijn">
+      </div>
+      
+      <div class="contact">
+        <p>U kan ons steeds een bericht sturen via onderstaand webformulier.</p>
+        <p>Gelieve alle velden gemarkeerd met een (*) in te vullen, anders kunnen wij u niet bereiken.</p>
+        <div class="inputNaam">
+          <p>Naam(*)</p>
+          <input id="naam" class="input" type="text" required>
+          <p>Adres</p>
+          <input id="adres"class="input" type="text">
+          <p>Email(*)</p>
+          <input id="email" class="input" type="text" required>
+          <p>GSM</p>
+          <input id="gsm" class="input" type="text">
+          <p>Onderwerp(*)</p>
+          <input id="onderwerp" class="input" type="text" required>
+          <p>Bericht(*)</p>
+          <input id="bericht" class="bericht" type="text" required>
+          <p></p>
+          <input id="verzenden" type="submit" value="VERZENDEN" class="button">
+          <input id="leegmaken" type="button" value="LEEGMAKEN" class="button">
+        </div>
+        <div>
+          <p id="fout" class="fout" hidden>Sommige verplichte velden zijn niet ingevuld</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>

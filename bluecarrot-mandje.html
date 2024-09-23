@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <script src="bluecarrot-mandje.js" defer></script>
+  <title>Blue Carrot</title>
+  <link rel="icon" href="groentenwinkel.ico" type="image/x-icon">
+  <link rel="stylesheet" href="opmaak.css" />
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <a href="bluecarrot-index.html"><img src="bluecarrotlogo.PNG" class="banner" href="bluecarrot-index.html"></a>
+    <div class="inhoud">
+      <div class="menu">
+        <hr class="lijn">
+        <ul>
+          <li><a href="bluecarrot-index.html">OVER ONS</a></li>
+          <li><a href="bluecarrot-assortiment.html">ASSORTIMENT</a></li>
+          <li><a href="bluecarrot-mandje.html" class="actief">WINKELMANDJE
+              <text id="aantal" hidden></text>
+          <li><a href="bluecarrot-contact.html">CONTACTEER ONS</a></li>
+        </ul>
+        <hr class="lijn">
+      </div>
+
+      <div class="grid-container2">
+        <div class="item1">
+          <p>Assortiment</p>
+          <select class="balk" id="keuze" required>
+            <option value="">Maak uw keuze</option>
+          </select>
+          <p>Hoeveelheid (>0)</p>
+          <input class="balk" type="number" min="1" id="aantalKeuze" required>
+          <p></p>
+          <input type="submit" value="TOEVOEGEN" id="toevoegen">
+          <p>Laatste bijwerking</p>
+          <input type="button" value="ALLES WISSEN" class="button">
+        </div>
+        <div class="item2">
+          <p id="leeg">Uw winkelmandje is leeg momenteel</p>
+          <table id="bestelling" hidden>
+            <thead>
+              <tr>
+                <th class="header" colspan="2">ARTIKEL</th>
+                <th class="header" >PRIJS</th>
+                <th class="header" colspan="3">AANTAL</th>
+                <th class="header" >SALDO</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td id="totaal" colspan="8"> TOTAAL TE BETALEN:</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <div class="item3">
+          <p>KASSATICKET</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>

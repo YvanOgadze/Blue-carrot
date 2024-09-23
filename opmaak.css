@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+/* ----- GENERAL -----*/
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.inhoud {
+    font-family: Verdana;
+    background: rgb(226, 226, 226);
+    color: rgb(47,85,151)
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.lijn {
+    border: 2px solid rgb(47,85,151);
+}
+
+.menu {
+    background: white;
+    width: 100%;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 1em 5em 1em 5em;
+    padding: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    padding: 2em 2em;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(47,85,151);
+}
+
+.menu ul li a.actief {
+    color: white;
+    background: rgb(47,85,151);
+    padding: 0;
+}
+
+.menu ul li a:hover {
+    color: blue;
+}
+
+
+/* ----- OVER ONS ----- */
+.content {
+    margin: 0.5em 1em 0.5em 1em;
+    padding: 1em 2em 2em 2em;
+    background: rgb(208,215,245);
+}
+
+#familie {
+    margin-right: 1em;
+    float: left;
+    width: 30%;
+    height: 30%
+}
+
+
+/* ----- ASSORTIMENT ----- */
+#groenten, #fruit, #alles {
+    padding: 1em 1em;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(47,85,151);
+    text-align: center;
+    
+}
+
+#groenten:hover, #fruit:hover, #alles:hover {
+    color: blue;
+    
+}
+
+.assortiment {
+    margin: 0.5em 2em 1em 2em;
+    padding: 0 1em 1em 1em;
+    background: rgb(208,215,245);
+    text-align: center;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 150px);
+    /* justify-content: space-around; */
+    font-size: 0.7em;
+}
+
+img {
+    /* width: 40%; */
+    height: 5em;
+}
+
+.mandje {
+    height: 2em;
+}
+
+#aantal {
+    color: white;
+    background: green;
+    font-size: 0.8em;
+    padding: 0.7em 0.7em;
+}
+
+
+/* ----- WINKELMANDJE ----- */
+.grid-container2 {
+    background: rgb(226, 226, 226);
+    padding: 0 1em 1em 1em;
+    display: grid;
+    text-align: center;
+    column-gap: 3em;
+}
+
+.item1 {
+    background: rgb(208,215,245);
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item2 {
+    background: rgb(208,215,245);
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+.item3 {
+    background: rgb(208,215,245);
+    grid-column-start: 6;
+    grid-column-end: 8;
+}
+
+.balk {
+    width: 150px;
+    height: 25px;
+}
+
+.header {
+    background: white;
+    padding: 0.5em 0 0.5em 0;
+}
+
+#totaal {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#bestelling {
+    width: 100%;
+}
+
+.fotos {
+    height: 1.5em;
+}
+
+/* ----- OVER ONS ----- */
+.contact {
+    margin: 0.5em 2em 1em 2em;
+    padding: 0 1em 1em 1em;
+    background: rgb(208,215,245);
+    text-align: center;
+}
+
+.button {
+    background: rgb(47,85,151);
+    color: white;
+    height: 2em;
+}
+
+.input {
+    width: 500px;
+    height: 2em;;
+}
+
+.bericht {
+    width: 500px;
+    height: 100px;
+}
+
+.inputNaam {
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.fout {
+    color: white;
+    background: red;
+}
